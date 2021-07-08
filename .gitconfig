@@ -1,0 +1,17 @@
+[user]
+	email = dorian@dorianmarie.fr
+	name = Dorian Marié
+[alias]
+  co = checkout
+  cm = commit
+  cmm = commit -m
+  dfs = diff --staged
+  s = status
+  r = reset
+  df = diff
+  b = branch
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[push]
+  default = current
+[core]
+  excludesfile = /Users/dorianmariefr/.gitignore_global
